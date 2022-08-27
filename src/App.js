@@ -12,7 +12,7 @@ import MentalHealth from "./components/Topics/MentalHealth";
 import GeneralUse from "./components/Topics/GeneralUse";
 import TopicPage from "./components/Topics/TopicPage";
 import HealthRecord from "./components/HealthRecord/HealthRecord";
-import HelpDesk from "./components/HelpDesk"
+import HelpDesk from "./components/HelpDesk/HelpDesk"
 import VolunteerProject from "./components/VolunteerProject/Volunteer";
 import StuntedGrowthVolunteer from "./components/VolunteerProject/StuntedGrowth";
 import MaternalNutritionVolunteer from "./components/VolunteerProject/MaternalNutrition";

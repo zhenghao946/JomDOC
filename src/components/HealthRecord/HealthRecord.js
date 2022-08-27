@@ -1,4 +1,4 @@
-import './../../App.css'
+import './HealthRecord.css'
 import React, { useState } from 'react'
 
 const HealthRecord = () =>{

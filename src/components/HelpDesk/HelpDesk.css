@@ -1,0 +1,27 @@
+.helpDeskPage {
+    background-color: rgb(198, 216, 255);
+  }
+  
+  .helpDeskPageContent h1{
+    padding-top: 30px;
+    padding-left: 30px;
+    margin: 0px;
+  }
+  
+  .helpDeskPageContent h2{
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+  .helpDeskPageContent h3{
+    text-align: center;
+    font-size: x-large;
+  }
+  
+  .helpDeskFaqItem {
+    border-radius: 50px;
+    border: 1px solid #282c34;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+  }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './../App.css';
-import db from './../firebase-config';
+import './HelpDesk.css';
+import db from './../../firebase-config';
 import { collection, getDocs } from 'firebase/firestore';
 
 const HelpDesk = () =>{
