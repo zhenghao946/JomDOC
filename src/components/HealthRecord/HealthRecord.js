@@ -32,8 +32,8 @@ const HealthRecord = () =>{
 
     return(
             <>
-            <div className='page'>
-            <div className='pageContent'>
+            <div className='healthRecordPage'>
+            <div className='healthRecordPageContent'>
                 <h1>Health Record</h1>
                 <p>This section is about your previous medical information like previous medical history. 
                     <br></br>Filling this up can better help our medical workers track diagnose for you. 
@@ -196,7 +196,7 @@ const HealthRecord = () =>{
             </div>
             </>
 
-    )
+    );
 }
 
 export default HealthRecord;

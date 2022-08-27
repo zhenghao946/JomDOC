@@ -81,12 +81,26 @@ p{
   padding-left: 30px;
 }
 
-.page {
+.healthRecordPage {
   background-color: rgb(198, 216, 255);
 }
 
-.pageContent h1{
+.healthRecordPageContent h1{
   padding-top: 30px;
   padding-left: 30px;
   margin: 0px;
+}
+
+.helpDeskPage {
+  background-color: rgb(198, 216, 255);
+}
+
+.helpDeskPageContent h1{
+  padding-top: 30px;
+  padding-left: 30px;
+  margin: 0px;
+}
+
+.helpDeskPageContent h2{
+  text-align: center;
 }

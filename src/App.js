@@ -11,6 +11,8 @@ import Maternity from "./components/Topics/Maternity";
 import MentalHealth from "./components/Topics/MentalHealth";
 import GeneralUse from "./components/Topics/GeneralUse";
 import TopicPage from "./components/Topics/TopicPage";
+import HealthRecord from "./components/HealthRecord/HealthRecord";
+import HelpDesk from "./components/HelpDesk"
   
 function App() {
   return (
@@ -19,11 +21,13 @@ function App() {
       <Navbar />
       <BrowserRouter>
         <Routes>
-        <Route path="/" element={<TopicPage/>}></Route>
+          <Route path="/" element={<TopicPage/>}></Route>
           <Route path="/StuntedPage" element={<StuntedPage/>}></Route>
           <Route path="/Maternity" element={<Maternity/>}></Route>
           <Route path="/MentalHealth" element={<MentalHealth/>}></Route>
           <Route path="/GeneralUse" element={<GeneralUse/>}></Route>
+          <Route path='/healthrecord' element={<HealthRecord/>}></Route>
+          <Route path='/helpdesk' element={<HelpDesk/>}></Route>
         </Routes>
       </BrowserRouter>
       

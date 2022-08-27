@@ -21,7 +21,7 @@ export const MenuItems = [
     },
     {
         title: 'Help Desk',
-        url: '#',
+        url: '/helpdesk',
         cName: 'nav-links'
     },
 ]
