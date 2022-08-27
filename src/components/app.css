@@ -1,0 +1,61 @@
+.Volunteer {
+    margin-left: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    font-weight: 170;
+}
+
+h4 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.imgcenter {
+    margin-left: 13%;
+}
+
+.wrapper {
+    width: 100%;
+  }
+
+.column {
+    display: inline-block;
+    height: 350px;
+    width: 33.3%;
+    padding-inline: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    text-align: center;
+    font-style: italic;
+    font-weight: 200px;
+  }
+
+li {
+    margin-left: 10%;
+}
+
+.tasks {
+    margin-left: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-bottom: auto;
+}
