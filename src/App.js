@@ -1,33 +1,30 @@
-import React, {useEffect, useState} from 'react';
-import { db } from './firebase-config';
-import { collection, getDocs } from 'firebase/firestore';
-
-const App = () => {
-  const [users, setUsers] = useState([]);
-
-  useEffect(() =>{
-    const getUsers = async () =>{
-      const usersCollectionRef = collection(db, 'users');
-      const data = await getDocs(usersCollectionRef);
-      setUsers(data.docs.map((doc) => ({...doc.data(), id: doc.id})));
-    };
-
-    getUsers();
-  }, [])
- 
+import "./App.css";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+  
+import Home from "./components/Home";
+import About from "./components/About";
+import ContactUs from "./components/ContactUs";
+  
+function App() {
   return (
-    <div classame='App'>
-      {users.map((user)=>{
-        return(
-          <div>
-            {" "}
-            <h1>Name:{user.name}</h1>
-            <h1>Age:{user.age}</h1>
-          </div>
-        )
-      })}
-    </div>
-  )
-}
+    <>
+      {/* This is the alias of BrowserRouter i.e. Router */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>}>
+            {/* <img src = "volunteer1.jpg" alt="Volunteer"></img> */}
+          </Route>
+          <Route path="/about" element={<About/>}></Route>
+          <Route path="/contactus" element={<ContactUs/>}></Route>
 
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+}
+  
 export default App;
