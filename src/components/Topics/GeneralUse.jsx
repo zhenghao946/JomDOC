@@ -1,8 +1,6 @@
 import React from "react";
 import './Topic.css';
 
-
-
 const GeneralUse = () => {
   return (
     <div>
