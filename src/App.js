@@ -9,6 +9,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from "./components/Home";
 import About from "./components/About";
 import ContactUs from "./components/ContactUs";
+import HealthRecord from "./components/HealthRecord/HealthRecord";
   
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           </Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/contactus" element={<ContactUs/>}></Route>
-
+          <Route path='/healthrecord' element={<HealthRecord/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
