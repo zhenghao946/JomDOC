@@ -4,7 +4,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-  
+
+import Navbar from './components/Navbar/Navbar';
 import Home from "./components/Home";
 import About from "./components/About";
 import ContactUs from "./components/ContactUs";
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       {/* This is the alias of BrowserRouter i.e. Router */}
+      <Navbar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}>
