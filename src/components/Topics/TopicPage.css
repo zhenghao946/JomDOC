@@ -1,0 +1,57 @@
+
+.ruralPic {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.MatPic {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MentalPic {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.GeneralPic {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TopicContainer {
+    text-align: center;
+    background-color: rgb(198, 216, 255);
+    
+    
+    
+}
+
+.Page {
+    background-color: rgb(198, 216, 255);
+    
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.TopicContainer h1 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 0px;
+    
+}
+
+
+
