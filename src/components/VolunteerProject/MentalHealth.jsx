@@ -18,9 +18,9 @@ const ButtonMailto = ({ mailto, label }) => {
 const MentalHealthVolunteer = () => {
   return (
     <div>
-      <h1>Mental Health Volunteering Project</h1>
+      <h1 class="volunteer-h1">Mental Health Volunteering Project</h1>
       <div class="wrapper">
-        <h3>Benefits</h3>
+        <h3 class="volunteer-h3">Benefits</h3>
         <div class="column">
           <center><img src="./images/volunteer-4.jpg" width="300px" height="300px"/></center> <br />
           Experiencing a life changing cultural journey to Indonesia
@@ -35,7 +35,7 @@ const MentalHealthVolunteer = () => {
         </div>
       </div>
       <div>
-        <p> <h3>Highlights</h3> <br/>
+        <p> <h3 class="volunteer-h3">Highlights</h3> <br/>
         In this program, you will actively contribute to reduce mental health cases that happens in Indonesia.
         </p>
         <ul>
@@ -51,7 +51,7 @@ const MentalHealthVolunteer = () => {
           </li>
         </ul>
       </div>
-      <h3>Interested?</h3> <p>Drop down an email to us. We will be contacting you soon! <ButtonMailto label="Send us an E-Mail" mailto="mailto:hr@jomdoc.com" /></p>
+      <h3 class="volunteer-h3">Interested?</h3> <p>Drop down an email to us. We will be contacting you soon! <ButtonMailto label="Send us an E-Mail" mailto="mailto:hr@jomdoc.com" /></p>
     </div>
   );
 };

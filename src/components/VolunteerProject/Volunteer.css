@@ -2,11 +2,11 @@
     margin-left: 20%;
 }
 
-h1 {
+.volunteer-h1 {
     text-align: center;
 }
 
-h2 {
+.volunteer-h2 {
     margin-left: 10%;
 }
 
@@ -15,7 +15,7 @@ p {
     margin-right: 10%;
 }
 
-h3 {
+.volunteer-h3 {
     text-align: center;
     font-style: italic;
     font-weight: 170;

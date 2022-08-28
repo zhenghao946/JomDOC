@@ -17,6 +17,7 @@ import VolunteerProject from "./components/VolunteerProject/Volunteer";
 import StuntedGrowthVolunteer from "./components/VolunteerProject/StuntedGrowth";
 import MaternalNutritionVolunteer from "./components/VolunteerProject/MaternalNutrition";
 import MentalHealthVolunteer from "./components/VolunteerProject/MentalHealth";
+import TalkToUs from "./components/MentalSupport/TalkToUs";
   
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
           <Route path="/MentalHealth" element={<MentalHealth/>}></Route>
           <Route path="/GeneralUse" element={<GeneralUse/>}></Route>
           <Route path='/healthrecord' element={<HealthRecord/>}></Route>
-          <Route path='/helpdesk' element={<HelpDesk/>}></Route>
+          <Route path="/TalkToUs" element={<TalkToUs/>}></Route>
+          {/* <Route path='/helpdesk' element={<HelpDesk/>}></Route> */}
 
           <Route path="/Volunteer" element={<VolunteerProject/>}></Route>
           <Route path="/StuntedGrowthVolunteer" element={<StuntedGrowthVolunteer/>}></Route>
