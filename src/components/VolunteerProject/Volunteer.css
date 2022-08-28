@@ -2,26 +2,26 @@
     margin-left: 20%;
 }
 
-.Volunteer h1 {
+.volunteer-h1 {
     text-align: center;
 }
 
-.Volunteer h2 {
+.volunteer-h2 {
     margin-left: 10%;
 }
 
-.Volunteer p {
+p {
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.Volunteer h3 {
+.volunteer-h3 {
     text-align: center;
     font-style: italic;
     font-weight: 170;
 }
 
-.Volunteer h4 {
+h4 {
     text-align: center;
     font-style: oblique;
 }
@@ -49,7 +49,7 @@
     font-weight: 200px;
   }
 
-  .Volunteer li {
+li {
     margin-left: 10%;
 }
 

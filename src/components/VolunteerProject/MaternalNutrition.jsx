@@ -18,9 +18,9 @@ const ButtonMailto = ({ mailto, label }) => {
 const MaternalNutritionVolunteer = () => {
   return (
     <div>
-      <h1>Maternal Nutrition Volunteering Project</h1>
+      <h1 class="volunteer-h1">Maternal Nutrition Volunteering Project</h1>
       <div class="wrapper">
-        <h3>Benefits</h3>
+        <h3 class="volunteer-h3">Benefits</h3>
         <div class="column">
           <center><img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fvolunteer-1.jpg?alt=media&token=feb98d85-a070-46c2-b132-c3d2e08cb5b9" alt="" width="300px" height="300px"/></center> <br />
           Volunteer to have a meaningful social impact that really matters
@@ -35,7 +35,7 @@ const MaternalNutritionVolunteer = () => {
         </div>
       </div>
       <div>
-        <p> <h3>Highlights</h3> <br/>
+        <p> <h3 class="volunteer-h3">Highlights</h3> <br/>
         In this program, you will actively contribute to Maternal Nutrition that happens in Indonesia.
         You will help the local team collecting, organizing and distributing the nutrition foods for the citizens.
         </p>
@@ -52,7 +52,7 @@ const MaternalNutritionVolunteer = () => {
           </li>
         </ul>
       </div>
-      <h3>Interested?</h3> <p>Drop down an email to us. We will be contacting you soon! <ButtonMailto label="Send us an E-Mail" mailto="mailto:hr@jomdoc.com" /></p>
+      <h3 class="volunteer-h3">Interested?</h3> <p>Drop down an email to us. We will be contacting you soon! <ButtonMailto label="Send us an E-Mail" mailto="mailto:hr@jomdoc.com" /></p>
     </div>
   );
 };

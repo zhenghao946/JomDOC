@@ -18,9 +18,9 @@ const ButtonMailto = ({ mailto, label }) => {
 const StuntedGrowthVolunteer = () => {
   return (
     <div>
-      <h1>Stunted Growth Volunteering Project</h1>
+      <h1 class="volunteer-h1">Stunted Growth Volunteering Project</h1>
       <div class="wrapper">
-        <h3>Benefits</h3>
+        <h3 class="volunteer-h3">Benefits</h3>
         <div class="column">
           <center><img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fvolunteer-7.jpg?alt=media&token=a8080f35-7037-4669-a864-48c305b1c9e1" alt="" width="300px" height="300px"/></center> <br />
           Provide healthy food options to disadvantanged families
@@ -35,7 +35,7 @@ const StuntedGrowthVolunteer = () => {
         </div>
       </div>
       <div>
-        <p> <h3>Highlights</h3> <br/>
+        <p> <h3 class="volunteer-h3">Highlights</h3> <br/>
         In this program, you will actively contribute to reduce stunted growth issues that happens in Indonesia.
         </p>
         <ul>
@@ -51,7 +51,7 @@ const StuntedGrowthVolunteer = () => {
           </li>
         </ul>
       </div>
-      <h3>Interested?</h3> <p>Drop down an email to us. We will be contacting you soon! <ButtonMailto label="Send us an E-Mail" mailto="mailto:hr@jomdoc.com" /></p>
+      <h3 class="volunteer-h3">Interested?</h3> <p>Drop down an email to us. We will be contacting you soon! <ButtonMailto label="Send us an E-Mail" mailto="mailto:hr@jomdoc.com" /></p>
     </div>
   );
 };

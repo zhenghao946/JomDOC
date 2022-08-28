@@ -6,7 +6,7 @@ const VolunteerProject = () => {
 
   return (
     <div>
-      <h1>Our Volunteering Project</h1>
+      <h1 class="volunteer-h1">Our Volunteering Project</h1>
       <br />
       <div class = "Volunteer">
         <Link to="/StuntedGrowthVolunteer">

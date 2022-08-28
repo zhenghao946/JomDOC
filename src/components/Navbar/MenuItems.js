@@ -16,7 +16,7 @@ export const MenuItems = [
     },
     {
         title: 'Talk2Us',
-        url: '#',
+        url: '/TalkToUs',
         cName: 'nav-links'
     },
     {
