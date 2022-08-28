@@ -16,7 +16,7 @@ const TopicPage = () => {
         
 
         <Link to="/MentalHealth"><h1>Mental Health</h1></Link>
-        <img className="MentalPic" alt="a" src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fmental-health.jpg?alt=media&token=e8b65e85-47dd-45db-ac1e-83d9291bd3ce"></img>
+        <img className="MentalPic" alt="a" src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fmental_health.jpg?alt=media&token=08b06cfd-db7c-4034-8784-7ab02a786b92"></img>
         
 
         <Link to="/GeneralUse"><h1>General Use</h1></Link>

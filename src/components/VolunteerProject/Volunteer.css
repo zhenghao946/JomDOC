@@ -4,6 +4,8 @@
 
 .volunteer-h1 {
     text-align: center;
+    padding-top: 30px;
+    margin: 0px;
 }
 
 .volunteer-h2 {
@@ -59,3 +61,7 @@ h4 {
     font-size: x-large;
     margin-bottom: auto;
 }
+
+.volunteer {
+    background-color: rgb(198, 216, 255);
+  }

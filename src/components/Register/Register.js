@@ -12,14 +12,14 @@ function Register() {
   const [password, setPassword] = useState("");
   const [name, setName] = useState("");
   const [user, loading, error] = useAuthState(auth);
-  const history = useNavigate();
+  const navigate = useNavigate();
   const register = () => {
     if (!name) alert("Please enter name");
     registerWithEmailAndPassword(name, email, password);
   };
   useEffect(() => {
     if (loading) return;
-    if (user) history.replace("/dashboard");
+    if (user) navigate("/login");
   }, [user, loading]);
   return (
     <div className="register">
@@ -47,12 +47,6 @@ function Register() {
         />
         <button className="register__btn" onClick={register}>
           Register
-        </button>
-        <button
-          className="register__btn register__google"
-          onClick={signInWithGoogle}
-        >
-          Register with Google
         </button>
         <div>
           Already have an account? <Link to="/">Login</Link> now.

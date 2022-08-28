@@ -15,11 +15,6 @@ function Login() {
       return;
     }
     if (user) {
-        <button
-          onClick={() => logout()}
-        >
-          Logout
-        </button>
         //replace button with
         navigate("/dashboard");
     }

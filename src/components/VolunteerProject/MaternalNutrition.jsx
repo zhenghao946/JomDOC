@@ -17,7 +17,7 @@ const ButtonMailto = ({ mailto, label }) => {
 
 const MaternalNutritionVolunteer = () => {
   return (
-    <div>
+    <div class = "volunteer">
       <h1 class="volunteer-h1">Maternal Nutrition Volunteering Project</h1>
       <div class="wrapper">
         <h3 class="volunteer-h3">Benefits</h3>
