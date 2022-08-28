@@ -17,7 +17,7 @@ const ButtonMailto = ({ mailto, label }) => {
 
 const StuntedGrowthVolunteer = () => {
   return (
-    <div>
+    <div class = "volunteer">
       <h1 class="volunteer-h1">Stunted Growth Volunteering Project</h1>
       <div class="wrapper">
         <h3 class="volunteer-h3">Benefits</h3>
@@ -35,7 +35,7 @@ const StuntedGrowthVolunteer = () => {
         </div>
       </div>
       <div>
-        <p> <h3 class="volunteer-h3">Highlights</h3> <br/>
+        <p><h3 class="volunteer-h3">Highlights</h3> <br/>
         In this program, you will actively contribute to reduce stunted growth issues that happens in Indonesia.
         </p>
         <ul>
