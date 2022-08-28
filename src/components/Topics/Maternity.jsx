@@ -6,7 +6,7 @@ import './Topic.css';
 const Maternity = () => {
   return (
     <div>
-        <img src="images/maternity2.jpg" className="mainTopicPic"></img>
+        <img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fmaternity2.jpg?alt=media&token=6bc77527-7270-4224-a5c1-7a9e70757265" alt="" className="mainTopicPic"></img>
         <h1 className="bigTitle">Maternity Nutrition in Indonesia</h1>
         <br></br>
         <h2 className="overview-obj">Overview</h2>

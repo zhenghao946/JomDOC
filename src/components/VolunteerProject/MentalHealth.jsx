@@ -22,15 +22,15 @@ const MentalHealthVolunteer = () => {
       <div class="wrapper">
         <h3>Benefits</h3>
         <div class="column">
-          <center><img src="./images/volunteer-4.jpg" width="300px" height="300px"/></center> <br />
+          <center><img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fvolunteer-4.jpg?alt=media&token=dc335e6c-8e0e-4b30-8969-b10c276c07a0" alt="" width="300px" height="300px"/></center> <br />
           Experiencing a life changing cultural journey to Indonesia
         </div>
         <div class="column">
-          <center><img src="./images/volunteer-5.jpg" width="300px" height="300px"/></center> <br />
+          <center><img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fvolunteer-5.jpg?alt=media&token=2ee7b457-3253-46d4-82d3-b9b0e55b5f11" alt="" width="300px" height="300px"/></center> <br />
           Become more passionate about healthcare and gain a sense of community
         </div>
         <div class="column">
-          <center><img src="./images/volunteer-6.jpg" width="300px" height="300px"/></center> <br />
+          <center><img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fvolunteer-6.jpg?alt=media&token=6ae9e9b8-8efc-40a8-9d39-15f4d3e56e42" alt="" width="300px" height="300px"/></center> <br />
           Make memories you will never forget with people from all over the world
         </div>
       </div>

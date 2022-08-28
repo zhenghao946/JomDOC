@@ -4,7 +4,7 @@ import './Topic.css';
 const GeneralUse = () => {
   return (
     <div>
-        <img src="images/general2.jpg" className="mainTopicPic"></img>
+        <img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fgeneral2.jpg?alt=media&token=f7d17d41-f3bd-4c32-a2a5-81cb087d004b" alt="" className="mainTopicPic"></img>
         <h1 className="bigTitle">General Use</h1>
         <br></br>
         <h2 className="overview-obj">Overview</h2>

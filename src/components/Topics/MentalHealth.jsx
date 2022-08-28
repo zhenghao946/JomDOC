@@ -5,7 +5,7 @@ import './Topic.css';
 const MentalHealth = () => {
   return (
     <div>
-        <img src="images/mental_health2.jpg" className="mainTopicPic"></img>
+        <img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fmental_health2.jpg?alt=media&token=951e07ff-0412-4baf-8206-e2857341df1f" alt="" className="mainTopicPic"></img>
         <h1 className="bigTitle">Mental Health in Indonesia</h1>
         <br></br>
         <h2 className="overview-obj">Overview</h2>

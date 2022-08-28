@@ -1,12 +1,41 @@
-import React from "react";
-import { Button } from "../Buttons";
+import React from 'react';
 import './Topic.css';
 
 
-const StuntedPage = () => {
+// const readInfo = async (id) => {
+//     const doc = await db.collection("topics").doc(id).get();
+//     const info = {
+//         id: doc.id,
+//         ...doc.data(),
+//     };
+
+//     console.log(info);
+//     return info;
+// }
+
+const StuntedPage =  () => {
+    // const[info, setInfo] = useState([]);
+    // useEffect(() => {
+    //     db.collection("topics").doc(stuntedId).onSnapshot((doc) => {
+    //         const tempList = [];
+    //         doc.date().notes.map((value, index) =>{
+    //             tempList.push({value, index});
+    //         });
+
+    //         setInfo(tempList);
+    //     })
+    // });
+
+
+
+    // const stuntedId = "kUpDfXHwyCY08gsAunNF";
+    // const StuntedInfo = readInfo(stuntedId);
+
+
+
   return (
     <div>
-        <img src="images/kids_rural2.jpg" className="mainTopicPic"></img>
+        <img src="https://firebasestorage.googleapis.com/v0/b/jomdoc-b24b0.appspot.com/o/images%2Fkids_rural2.jpg?alt=media&token=cf318148-f1fd-4378-a729-b945e9f9a9fc" alt="" className="mainTopicPic"></img>
         <h1 className="bigTitle">Stunted Growth in Indonesia</h1>
         <br></br>
         <h2 className="overview-obj">Overview</h2>
@@ -61,10 +90,6 @@ const StuntedPage = () => {
             </li> 
             
         </ul>
-        
-        
-       
-        
     </div>
   )
 }
