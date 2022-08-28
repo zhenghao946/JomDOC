@@ -14,7 +14,7 @@ const HelpDesk = () =>{
         }
 
         getFaqs();
-    }, [])
+    }, []);
 
     return(
         <>

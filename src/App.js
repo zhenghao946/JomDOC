@@ -17,12 +17,15 @@ import VolunteerProject from "./components/VolunteerProject/Volunteer";
 import StuntedGrowthVolunteer from "./components/VolunteerProject/StuntedGrowth";
 import MaternalNutritionVolunteer from "./components/VolunteerProject/MaternalNutrition";
 import MentalHealthVolunteer from "./components/VolunteerProject/MentalHealth";
-  
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";  
+import Dashboard from "./components/Dashboard/Dashboard";
+
 function App() {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+      <Navbar />
         <Routes>
           <Route path="/" element={<TopicPage/>}></Route>
           <Route path="/StuntedPage" element={<StuntedPage/>}></Route>
@@ -31,6 +34,9 @@ function App() {
           <Route path="/GeneralUse" element={<GeneralUse/>}></Route>
           <Route path='/healthrecord' element={<HealthRecord/>}></Route>
           <Route path='/helpdesk' element={<HelpDesk/>}></Route>
+          <Route path="/login" element={<Login/>}></Route>
+          <Route path="/dashboard" element={<Dashboard/>}></Route>
+          <Route path="/register" element={<Register/>}></Route>
 
           <Route path="/Volunteer" element={<VolunteerProject/>}></Route>
           <Route path="/StuntedGrowthVolunteer" element={<StuntedGrowthVolunteer/>}></Route>
