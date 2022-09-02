@@ -4,6 +4,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import React, { useEffect } from 'react'
+import ReactDOM from 'react-dom'
 
 import Navbar from './components/Navbar/Navbar';
 import StuntedPage from "./components/Topics/StuntedPage";
@@ -23,6 +25,11 @@ import Register from "./components/Register/Register";
 import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
+  useEffect(() => {
+    document.title = "JomDOC"
+  }, [])
+
+
   return (
     <>
       <BrowserRouter>
@@ -50,5 +57,11 @@ function App() {
     </>
   );
 }
-  
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+
+
 export default App;
